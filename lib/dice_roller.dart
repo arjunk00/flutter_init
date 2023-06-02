@@ -33,7 +33,7 @@ class _DiceRollerState extends State<DiceRoller> {
             // padding: EdgeInsets.only(top: 20),//values in px
             foregroundColor: Colors.amber,
             textStyle:
-                TextStyle(fontFamily: 'custom', fontSize: 28), //values in px
+                const TextStyle(fontFamily: 'custom', fontSize: 28), //values in px
           ),
           child: StyledText("Roll Dice"),
         ),
